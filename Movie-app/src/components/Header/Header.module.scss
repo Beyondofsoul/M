@@ -1,0 +1,95 @@
+@import '../../scss/libs/normalize';
+html {
+  font-size: 10px;
+}
+.header {
+  color: #ffffff;
+  background-image: url('../../assets/BG-HEADER.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 45.5rem;
+  .nav {
+    &__list {
+      display: flex;
+      padding-top: 4.7rem;
+      column-gap: 3.2rem;
+      &__link {
+        line-height: 1.8rem;
+      }
+    }
+  }
+  .account {
+    &__items {
+      display: flex;
+      column-gap: 2.4rem;
+      padding-left: 100rem;
+    }
+    &__search {
+      cursor: pointer;
+    }
+    &__notion {
+      cursor: pointer;
+    }
+    &__photo {
+      width: 3.2rem;
+      height: 3.2rem;
+      background-color: #ffffff;
+      border-radius: 50%;
+    }
+    &__name {
+      padding-top: 0.2rem;
+    }
+  }
+  .film {
+    &__info {
+      padding-top: 15.2rem;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 4.8rem;
+      line-height: 4.8rem;
+      padding-bottom: 2rem;
+    }
+    &__description {
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      padding-bottom: 3.6rem;
+    }
+    &__footer {
+      display: flex;
+      column-gap: 1.6rem;
+    }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #6100c2;
+      border-radius: 1.4rem;
+      padding: 1.7rem 2.4rem;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(189, 48, 142);
+        transition: 0.4s;
+      }
+    }
+    &__favorite {
+      background-color: #ffffff;
+      border-radius: 1.4rem;
+      display: flex;
+      background: rgb(246, 242, 254);
+      background: linear-gradient(93deg, rgba(246, 242, 254, 1) 27%, rgba(221, 220, 226, 1) 80%);
+      cursor: pointer;
+      &:hover {
+        background: linear-gradient(187deg, rgba(189, 242, 254, 1) 27%, rgba(221, 220, 226, 1) 80%);
+        transition: 0.6s;
+      }
+    }
+    &__heart {
+      padding: 1.5rem;
+    }
+  }
+}

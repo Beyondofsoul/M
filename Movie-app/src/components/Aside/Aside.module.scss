@@ -1,0 +1,68 @@
+@import '../../scss/libs/normalize';
+
+html {
+  font-size: 10px;
+}
+.aside {
+  margin-right: 3.2rem;
+  box-shadow: 2px 0px 9px 9px rgba(90, 10, 170, 0.4);
+  float: left;
+  background-color: #21201e;
+  width: 27.4rem;
+  padding-left: 4rem;
+  &__title_block {
+    display: flex;
+
+    padding-top: 4.4rem;
+    padding-bottom: 5.8rem;
+  }
+  &__title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    padding-top: 0.5rem;
+    padding-left: 0.8rem;
+  }
+}
+.nav {
+  padding-bottom: 8.7rem;
+  &__item_Main {
+    padding-left: 1.2rem;
+    font-weight: 700;
+  }
+  &__items {
+    display: flex;
+    padding-bottom: 3.5rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  &__item {
+    padding-left: 1.2rem;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+}
+.community {
+  &__items {
+    padding-top: 3.3rem;
+    margin-bottom: 25.7rem;
+  }
+  &__item {
+    position: absolute;
+    padding-left: 1.2rem;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+}
+.account {
+  &__items {
+    padding-top: 2.3rem;
+  }
+  &__item {
+    position: absolute;
+    padding-left: 1.2rem;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+}
